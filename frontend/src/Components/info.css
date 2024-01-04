@@ -1,0 +1,21 @@
+.info {
+    color: black;
+    text-align: left;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.underlined {
+    text-decoration: underline;
+    color: rgb(0, 48, 96);
+}
+
+.right {
+    float: right;
+    font-weight: bold;
+    margin-right:10px;
+    user-select: none;
+    cursor: pointer;
+}

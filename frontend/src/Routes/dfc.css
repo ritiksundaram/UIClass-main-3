@@ -1,0 +1,59 @@
+html {
+   font-family: Futura;
+}
+
+img {
+   border: 0px solid black;
+}
+
+
+
+.slide {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-90%) translateY(-50%);
+   transition: transform 0.5s ease-in-out;
+
+}
+
+#title {
+   padding-top: 20px;
+   font-size: 30px;
+   font-weight: bold;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.info-box {
+   width: 400px;
+   height: 410px;
+   opacity: 0;
+   padding: 20px;
+   margin-left: 20px;
+   background-color: #68BBE34D;
+   position: absolute;
+   top: 20%;
+   left: 60%;
+   transition: opacity 0.5s ease-in-out;
+   border-radius: 10px; 
+   z-index: 1;
+   pointer-events: none;
+}
+
+.info-box.show {
+   pointer-events: none;
+   opacity: 1;
+   pointer-events: auto; 
+}
+
+.center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   transition: transform 0.5s ease-in-out;
+
+}

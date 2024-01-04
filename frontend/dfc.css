@@ -1,0 +1,86 @@
+html {
+   font-family: Futura;
+}
+
+img {
+   border: 0px solid black;
+}
+
+.center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+}
+
+#title {
+   padding-top: 40px;
+   font-size: 30px;
+   font-weight: bold;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   /*  border: 2px solid black;  */
+}
+
+.container {
+   font-size: 12px;
+   position: absolute;
+   padding-top: 15px;
+   background-color: white;
+   border: 0px solid;
+   border-color: #68BBE3;
+   min-width: 90px;
+}
+
+.pop {
+   font-size: 22px;
+   position: absolute;
+   min-width: 100px;
+   min-height: 85px;
+   background-color: white;
+   border: 5px solid;
+   border-color: #68BBE3;
+}
+
+
+#cardio {
+   top: 20px;
+   left: 200px;
+}
+
+#stretch {
+   top: 120px;
+   left: 430px;
+}
+
+#track {
+   top: 50px;
+   left: 320px;
+}
+
+#weights {
+   top: 190px;
+   left: 200px;
+}
+
+#squash {
+   top: 240px;
+   left: 580px;
+}
+
+#blue {
+   top: 390px;
+   left: 200px;
+}
+
+#cardio-weight {
+   top: 330px;
+   left: 160px;
+}
+
+#pool {
+   top: 520px;
+   left: 220px;
+}

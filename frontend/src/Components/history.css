@@ -1,0 +1,18 @@
+.spacer{
+    width:98%;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
